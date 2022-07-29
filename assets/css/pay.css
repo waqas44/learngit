@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.pay-logo {
+margin-bottom: 83px; 
+font-family: 'Roboto', sans-serif;
+
+}
+.left {
+padding-left: 90px;
+
+
+}
+.left h3{
+
+	text-align: center;
+	    font-family: San Francisco Display;
+	  /*  font-family: HK Grotesk;*/
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0px;
+color:  #34529A;
+margin-bottom: 40px;
+
+
+}
+.left img{
+	text-align: center;
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 27px;
+}
+
+.left ul{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+/*line-height: 26px;*/
+
+color: #5F6F88;
+
+
+}
+.left ul li {
+	margin-bottom: 35px;
+
+    position: relative;
+
+
+
+}
+.left ul li::before{
+    content: "";
+    background-image: url(../images/yes.png);
+    width: 60px;
+    height: 38px;
+    /* display: flex; */
+    /* float: left; */
+    background-repeat: no-repeat;
+    top: 50%;
+    position: absolute;
+    left: -75px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: -19px;
+
+
+}
+
+
+
+
+/*right side form area*/
+
+.form-top {
+
+
+}
+
+
+.form-top img{
+	display: block;
+	margin:  0 auto;
+	margin-bottom: 65px;
+
+	
+}
+
+.form-top p{
+font-family: Roboto;
+font-size: 16px;
+
+line-height: 19px;
+    margin-bottom: 12px;
+
+	
+}
+   .form-top p a{
+text-decoration: underline;
+    color: #337ab7;
+    color: #2176E1;
+display: inline-block;
+}
+
+.form-top h5{
+font-family: Roboto;
+font-size: 16px;
+
+font-weight: 500;
+line-height: 19px;
+color: #000000;
+
+
+	
+}
+.bail-form {
+
+
+}
+
+
+.bail-form .control-label {
+font-family: Roboto;
+font-size: 18px;
+line-height: 21px;
+color: #5F6F88;
+
+}
+
+.bail-form  input[type="text"]{
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+}
+
+.bail-form label a{
+    color: #2176E1;
+    display: inline-block;
+    }
+
+.bail-form button[type="submit"]{
+
+	background: #2176E1;
+    border-radius: 3px;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #2176E1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    height: 42px;
+    margin-top: 20px;
+}
+
+
+/*Register Css End*/
+
+.bailbox {
+
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.bailbox  h3{
+	
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #34529A;
+font-weight: bold;
+}
+
+
+
+.partners{
+	    border: solid 2px #6a177a;
+    padding: 22px;
+    text-align: center;
+
+border: 1px solid #F6FBFF;
+box-sizing: border-box;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+   
+    margin:0 auto 100px;
+    width: 940px;
+    max-width: 100%;
+
+}
+.process a{
+    display: inline-block;
+    margin-right: 24px;
+}
+
+@media (max-width: 991px){
+
+
+.pay-logo img{
+
+margin: 0 auto;
+display: block;
+margin-bottom: 83px;
+
+}
+.left{
+margin-bottom: 80px;
+
+}
+
+}
+
+@media (max-width: 578px){
+.left img{
+margin: 0 0 27px 0;
+
+}
+.left h3{
+text-align: left;
+
+}
+
+.bailbox h3{
+    font-size: 26px;
+    line-height: 37px;
+
+}
+
+.process a{
+
+    margin-bottom: 24px;
+}
+
+}

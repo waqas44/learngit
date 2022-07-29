@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BailBooks html5 template</title>
+        <meta name="tittle" content="">
+        <!-- StyleSheets -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+    </head>
+    <body>
+
+    <div class="preloade">
+        <span></span>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="sticker">
+        <div class="container">
+        
+            <!-- End navbar -->
+            <nav class="navbar" id="top-menu" role="navigation">
+
+                <!-- account links -->
+                <div class="account-btns">
+                    <a href="login-lookup.html" class="btn"><span>Sign in</span><i class="fa fa-sign-in"></i></a>
+                    <a href="register.html" class="btn dark"><span>Register</span><i class="fa fa-user-plus"></i></a>
+                </div>
+
+                <div class="navbar-header">
+                    <button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#mainmenu" aria-expanded="true">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1 class="navbar-brand">
+                        <a href="index.html"><img src="assets/images/logo.png" srcset="assets/images/logo@2x.png 2x, assets/images/logo@3x.png 3x" alt="bailbooks">
+                        </a>
+                    </h1>
+                </div>
+               
+                <!-- Collapse navigation -->
+                <div class="collapse navbar-collapse" id="mainmenu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="mobile-app.html">Mobile Apps</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="text-alerts.html">Text Alert</a></li>
+                        <li><a href="estatements.html">Estatements</a></li>
+                        <li><a href="screens.html">Screenshots</a></li>
+                        <li><a href="test-drive.html">Test Drive</a></li>
+                        <li><a href="timeclock.html">Time Clock</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- Header -->
+
+    <!-- main content -->
+    <main class="padding-top">
+        
+        <section class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="inner-heading">
+                        <h3 class="inner-title">Thank you for choosing the Bailbooks Premium Subscription</h3>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="checkout-panel">
+                        <form method="post" class="checkout-form" novalidate>
+                            <div class="buisness-info">
+                                <div class="form-group">
+                                    <h4 class="steps-heading">1- Your business name</h4>
+                                    <label class="control-label">What is the name of your agency or organization?</label>
+                                    <input type="text" name="buinessName" class="form-control">
+                                </div>
+                                <div class="form-group m-0">
+                                    <h4 class="steps-heading">2- Your Bailbooks ID</h4>
+                                    <p><b>Your bailbooks ID is used as your unique URL (myagencyname.bailbooks.com).</b> You may use letters (a-z) and numbers (0-9) only - spaces will not be allowed. Please take note of your bailbooks ID as you will need it (along with your username and password) to login to your bailbooks account.</p>
+                                    <div class="inline-form-group">
+                                        <label class="control-label">https://</label>
+                                        <input type="text" name="domain" class="form-control"> 
+                                        <label class="control-label">.bailbooks.com</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="admin-account">
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <h4 class="steps-heading">3- Your administrator account</h4>
+                                        <p>This is your primary login for your bailbooks account. Once you have created your primary login below, you'll be able to add other users to your account. Each user will have their own unique username and password.</p>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">First Name</label>
+                                        <input type="text" name="fname" class="form-control">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">Last Name</label>
+                                        <input type="text" name="lname" class="form-control">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">Email Address</label>
+                                        <input type="email" name="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6 m-0">
+                                        <label class="control-label">Password</label>
+                                        <input type="password" name="password" class="form-control">
+                                    </div>
+                                    <div class="form-group col-sm-6 m-0">
+                                        <label class="control-label">Confirm Password</label>
+                                        <input type="password" name="cpassword" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="billing-info">
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <h4 class="steps-heading">4- Enter your billing information</h4>
+                                        <p>Below enter the name of the card holder and the billing address for the credit card. </p>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">Name on card:</label>
+                                        <input type="text" name="cardname" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">Street address 2: </label>
+                                        <input type="text" name="lname" class="form-control">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">Street address:</label>
+                                        <input type="text" name="aname" class="form-control">
+                                    </div>
+                                    <div class="form-group col-sm-4">
+                                        <label class="control-label">City</label>
+                                        <input type="text" name="city" class="form-control">
+                                    </div>
+                                    <div class="form-group col-sm-4">
+                                        <label class="control-label">State</label>
+                                        <select class="form-control" id="state">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-4">
+                                        <label class="control-label">ZIP</label>
+                                        <input type="text" name="zip" class="form-control">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <span class="line"></span>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">Card Type</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label class="control-label">Card Number</label>
+                                        <input type="text" name="num" class="form-control">
+                                    </div>
+                                    <div class="form-group col-sm-3 m-0">
+                                        <label class="control-label">Expiration Date</label>
+                                        <select class="form-control" id="date">
+                                            <option>MONTH</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-3 m-0">
+                                        <label class="control-label">Expiration Date</label>
+                                        <select class="form-control" id="year">
+                                            <option>YEAR</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-4 m-0">
+                                        <label class="control-label">Card verification #:</label>
+                                        <input type="text" name="pnum" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="additional-features">
+                                <h3>Below are additional features you can add to your Bailbooks subscription.</h3>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="panel">
+                                            <span class="icon"><img src="assets/images/ico1.png" alt="icons"></span>
+                                            <strong>Accept Online Payments</strong>
+                                            <p><b>Capability for your defendants to pay you online with credit card for $19.95/month.</b> All that is required to accept credit cards online from your clients is a PayPal account.</p>
+                                            <a href="#" class="btn full-width">Add To Plan</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="panel">
+                                            <span class="icon"><img src="assets/images/ico2.png" alt="icons"></span>
+                                            <strong>Text Message Alerts for $15.00/month.</strong>
+                                            <p>Your employees will be able to use Time Clock to "clock-in and out" when they get to work and keep track of the amount of hours they are working.</p>
+                                            <a href="#" class="btn full-width">Add To Plan</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="panel">
+                                            <span class="icon"><img src="assets/images/ico3.png" alt="icons"></span>
+                                            <strong>Time Clock for $4.95/month</strong>
+                                            <p>Your employees will be able to use Time Clock to "clock-in and out" when they get to work and keep track of the amount of hours they are working.</p>
+                                            <a href="#" class="btn full-width">Added To Plan</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="panel">
+                                            <span class="icon"><img src="assets/images/ico4.png" alt="icons"></span>
+                                            <strong>E-Statements for $30/month</strong>
+                                            <p>and you will save time and money form sending your statement via US Mail and instead your clients will receive their statements via E-Mail..</p>
+                                            <a href="#" class="btn full-width">Added To Plan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-panel">
+                                <h4 class="steps-heading">5- Review your plan, accept the terms, &amp; finish sign-up</h4>
+                                <div class="display-table">
+                                    <strong class="about-plan">Your Premium plan is <span>$120.00 / month</span></strong>
+                                    <p><b>Bailbooks is a monthly service</b> There is no long-term contract, and you may cancel at any time.</p>
+                                </div>
+                                <p class="agents-count">You may add up to <b>12 agents</b> and you have <b>5000MB of disk storage</b>.Your plan also allows for an unlimited amount of bonds and users to be added</p>
+                                <ul>
+                                    <li>
+                                        <b>You may login to your bailbooks account at:</b>
+                                        <span>N/A</span>
+                                    </li>
+                                    <li>
+                                        <b>Coupon details:</b>
+                                        <span>N/A</span>
+                                    </li>
+                                </ul>
+                                <span class="line"></span>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">I have read and agreed with the User Notice.</label>
+                                </div>
+                                <button type="submit" class="btn theme-clr">Place Order And Create My Account</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <!-- main content -->
+
+    <!-- footer -->
+    <footer class="th-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <ul class="list-inline"> 
+                        <li><a href="#">Privacy Policy</a> &nbsp;&nbsp;&nbsp;|</li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                    <p>All content Copyright © 2004-6, Ebondsman, LLC. All rights reserved. Disclaimer: bailbooks is not owned/operated or affiliated with any Surety company and or Managing/General Agencies.Bailbooks is a product of <a href="#">Ebondsman, LLC</a>. an independent maker of web applications.Cell Phone GPS Locator \ Bail Bonds Software Texas \ Bail Bond Management Florida \ Bail Bond Tracking Software California \ Cell Phone Tracking</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6_MkUCahkTMoSJZKoLYsClr3mkDfH0mE"></script>
+    <script src="assets/js/gmap3.min.js"></script>
+    <script src="assets/js/prettyPhoto.js"></script>
+    <script src="assets/js/wow-min.js"></script>
+    <script src="assets/js/sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="assets/js/validate.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,171 @@
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {float: none;}
+    .navbar-left,.navbar-right {float: none !important;}
+    .navbar-toggle {display: block;}
+    .navbar-collapse {border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+    .navbar-fixed-top {top: 0; border-width: 0 0 1px;}
+    .navbar-collapse.collapse {display: none!important;}
+    .navbar-nav {float: none!important; margin-top: 7.5px;}
+	.navbar-nav>li {float: none;}
+    .navbar .navbar-nav>li>a {padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #fff; background-color: #5f6f88;
+    	color: #fff;}
+    .navbar .navbar-nav>li:last-child>a {border: 0;}
+    .navbar .nav li.active a {background-color: rgba(95,111,136,0.9); color: #fff;}
+    .collapse.in{display:block !important;}
+    .header .nav {margin-top: 6px;}
+    .header .account-btns {margin: 0; float: none; position: absolute; right: 58px; width: 200px; top: 9px;}
+    .header .account-btns.v2 {width: 305px;}
+}
+@media (max-width: 1199px) {
+	.banner-caption {padding-top: 20px;}
+	.desktop-sec .desktop-img {width: 50%;}
+	.desktop-sec {height: 500px;}
+	.app-holder .app-desc {padding: 0;}
+	.app-holder .app-desc h3 {font-size: 38px;}
+	.pricing-features li {font-size: 16px;}
+}
+
+@media (max-width: 1024px) {
+	
+
+}
+
+
+@media (max-width: 991px) {
+	.banner-caption h2 {font-size: 32px;}
+	.banner-caption p {font-size: 20px; line-height: 26px;}
+	.banner-caption .theme-btns .btn:first-child {margin-right: 10px;}
+	.banner-caption .theme-btns .btn {padding: 10px;}
+	.desktop-sec .info-block h3 {font-size: 32px;}
+	.desktop-sec .info-block p {font-size: 18px;}
+	.desktop-sec .desktop-img {width: 45%;}
+	.our-app .app-desc {text-align: center; padding-top: 0;}
+	.our-app .app-img img {float: none;}
+	.our-app .app-img {text-align: center;}
+	.app-holder .app-desc h3 {font-size: 26px;}
+	.app-desc .app-links a {margin: 0 0 5px;}
+	.app-screen span {font-size: 20px;}
+	.pricing-list > li {width: 33.333333%!important; margin-top: -3px;}
+	.alerts-desc h3 {font-size: 28px;}
+	.alerts-desc ul li {font-size: 16px;}
+	.alerts-desc {padding: 0;}
+	.contact-block {padding: 20px;}
+	.contact-block h3 {font-size: 30px;}
+	.contact-block strong {font-size: 18px;}
+	.about-address {padding: 0;}
+	.login-banner {margin: 0 0 40px;}
+	.login-form-holder.test-login {margin-top: 30px;}
+	.estatement-subscription-text h3 {font-size: 30px; line-height: 38px;}
+
+}
+
+
+
+@media (max-width: 800px) {
+
+} 
+
+
+@media screen and (max-width: 767px) {
+	.theme-btns .btn:first-child {margin-right: 10px;}
+	.banner-caption .btn {padding: 10px;}
+	.banner-caption {padding: 0;}
+	.banner-caption p{margin-bottom: 20px;}
+	.banner-holder {padding: 60px 0;}
+	.desktop-sec .info-block {vertical-align: bottom; text-align: center;}
+	.desktop-sec .desktop-img {top: 10px; width: 60%;}
+	.desktop-sec {height: 590px;}
+	.th-title {font-size: 38px; font-weight: normal;}
+	.gps-checkin .tracker-img {text-align: center;}
+	.gps-checkin {padding-bottom: 40px;}
+	.app-holder .app-desc {text-align: center; margin: 0 0 40px;}
+	.app-screen span b {display: inline-block;}
+	.app-screen span {font-size: 24px;}
+	.alerts-desc {margin: 0 0 40px;}
+	.about-address {padding: 0 0 30px;} 
+	.form-group.col-sm-3.m-0 {margin: 0 0 30px!important;}
+	.review-panel .display-table {display: block;}
+	.review-panel .about-plan {border: 0; padding: 0; margin: 0 0 20px; display: block; float: none; }
+	.lookup-list ul li strong,
+	.lookup-list ul li a{float: none; display: block; text-align: center; margin: 5px 0;}
+	.estatement-subscription-image {margin-bottom: 40px;}
+	.estatement-subscription-text h3 {font-size: 30px; line-height: 38px;}
+	.estatement-subscription-text p {line-height: 24px;}
+	.estatement-banner {position: static;}
+	.m-estatement .alerts-desc {margin: 0;}
+	.m-estatement {padding-bottom: 20px;}
+	.estatement-contain {padding: 0;}
+	.estatement-pager-image {left: 0;}
+	.estatement-info {padding: 20px 15px;}
+	.estatement-text p {font-size: 26px; line-height: 32px;}
+	.estatement-text strong {font-size: 32px; line-height: 45px;}
+	.estatement-pager-image {margin: 0 auto 30px; }
+	.estatement-info .row {display: block;}
+	.estatement-text:before {display: none;}
+	.login-holder .container {padding: 0;}
+	.login-banner {padding: 30px;}
+	.login-form-holder {margin: 0 15px 35px;}
+	.install-goolgle {margin: 0 15px;}
+
+}
+
+@media screen and (max-width: 639px) {
+	.banner-holder .col-md-5.col-sm-5.col-xs-5 {display: none;}
+	.banner-holder .col-md-6.col-sm-7.col-xs-7 {width: 100%;}
+	.banner-holder {padding: 50px 0;}
+	.banner-caption p{margin-bottom: 30px;}
+	.banner-caption h1 {margin-bottom: 15px;}
+	.desktop-sec {height: 540px;}
+	.app-links a:first-child {margin: 0 0 8px;}
+	.app-links a {display: block;}
+	.register-form .checkbox .btn {margin-top: 20px;}
+	.rest-pass,
+	.lookup-wrap p {padding: 0;}
+
+	.account-btns.v2 .btn {height: 40px; padding: 10px 15px;}
+	.account-btns.v2 .btn i {display: block;}
+	.account-btns.v2 .btn span {display: none;}
+	.account-btns.v2 .btn i {font-size: 16px;}
+	.account-btns.v2 .btn {padding: 10px 9px;}
+	.account-btns.v2 .btn:first-child {margin: 0;}
+	.header .account-btns.v2 {width: 181px;} 
+
+
+}
+
+@media screen and (max-width: 479px) {
+	.fw-480 {width: 100%;} 
+	.banner-caption {text-align: center;}
+	.online-desc p {text-align: center;}
+	.desktop-img {display: none;}
+	.desktop-sec {height: auto; padding-bottom: 100px;}
+	.header .account-btns {width: 125px;}
+	.account-btns .btn {height: 40px; padding: 10px 15px;}
+	.account-btns .btn i {display: block;}
+	.account-btns .btn span {display: none;}
+	.navbar-toggle {padding: 11px 7px;}
+	.account-btns .btn i {font-size: 16px;}
+	.account-btns .btn {padding: 10px 9px;}
+	.account-btns .btn:first-child {margin: 0;}
+	.header .account-btns {width: 82px; right: 42px;}
+	.banner-caption .btn {text-transform: capitalize;}
+	.theme-btns .btn:first-child {margin: 0;}
+	.banner-caption h1 {font-size: 28px;}
+	.desktop-sec .info-block .theme-btns .btn {display: block; margin: 0 0 10px;}
+	.pricing-list > li {width: 50%!important;} 
+	.login-banner h3 {font-size: 28px;}
+	.header .account-btns.v2 span.btn a:first-child{display: none;}
+	.header .account-btns.v2 {width: 82px;}
+}
+@media screen and (max-width: 479px){
+	
+
+}
