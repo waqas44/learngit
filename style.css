@@ -9,7 +9,7 @@ git commit -m "Title" -m "Description..."
 
 git commit -am "Message"
 
-
+git rm login.html
 
 @font-face {
     font-family: 'San Francisco Display';
