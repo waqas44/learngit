@@ -11,6 +11,9 @@ git commit -am "Message"
 
 git rm login.html
 
+git rm --cached index.html
+
+
 @font-face {
     font-family: 'San Francisco Display';
     src: url('assets/fonts/SanFranciscoDisplay-Bold.woff2') format('woff2'),
