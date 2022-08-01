@@ -3,6 +3,9 @@
 /*-----------------------------------------------------------------------------------*/
 /* making changes in style.css */
 /* making changes in style.css 2 */
+
+git commit -m "Title" -m "Description..."
+
 @font-face {
     font-family: 'San Francisco Display';
     src: url('assets/fonts/SanFranciscoDisplay-Bold.woff2') format('woff2'),
